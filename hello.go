@@ -8,6 +8,11 @@ import (
 
 func main() {
 	// Get a greeting message and print it.
-	message := greetings.Hello("Gladys")
+	message, err := greetings.Hello("Gladys")
 	fmt.Println(message)
+	if err != nil {
+		fmt.Println(greetings.Hello(""))
+	} else {
+		fmt.Println(err)
+	}
 }
