@@ -1,6 +1,8 @@
 # hello
 
-## https://go.dev/doc/tutorial/call-module-code
+## [create-module](https://go.dev/doc/tutorial/create-module)
+
+## [call-module-code](https://go.dev/doc/tutorial/call-module-code)
 
 go mod edit -replace example.com/greetings=../greetings
 
